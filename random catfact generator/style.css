@@ -1,0 +1,58 @@
+.wrapper{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items:center;
+    margin:0 auto;
+
+}
+
+body {
+    background-image: url("/asset/hannah-troupe-349131-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+  }
+
+.text-container{
+    margin-top:30px;
+}
+
+
+h1, h3{
+    color:white;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+.jumbotron{
+    background-color:transparent;
+    color:white;
+    height:52vh;
+    overflow: auto;
+    margin-top:-10px;
+}
+
+blockquote{
+    font-size:1.2em;
+    font-family: sans-serif;
+    margin:20px 0 10px 0;
+    text-align:center;
+}
+
+.text-container > h1{
+    display:inline-block;
+
+}
+
+   
+button{
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+footer{
+    color:white;
+    text-align: center
+}
